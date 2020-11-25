@@ -1,0 +1,11 @@
+1.  create conda env and install package
+    conda create --name pytorch_1_3_0 python=3.7.2
+    conda activate pytorch_1_3_0
+    conda install numpy pyyaml mkl mkl-include setuptools cmake cffi typing scipy
+    pip install ninja yacs cython matplotlib tqdm opencv-python pycocotools beautifulsoup4
+
+    # CUDA 10.0
+    conda install pytorch==1.3.0 torchvision==0.4.1 cudatoolkit=10.0 -c pytorch
+
+2. run bus_dt_demo.py with debug to check detection result
+
